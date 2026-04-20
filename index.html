@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy Wandenga | Accueil - Développeur d'Exception</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-text">FREDDY WANDENGA</div>
+            <div class="loader-dots"><span></span><span></span><span></span></div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="images/profile.jpg" alt="Freddy Wandenga" class="logo-photo">
+                </div>
+                <span class="logo-text">FW</span>
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="projets.html" class="nav-link">Projets</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-container">
+            <div class="hero-image" data-aos="fade-right">
+                <div class="hero-img-wrapper">
+                    <img src="images/wes.jpg" alt="Freddy Wandenga" class="hero-photo">
+                    <div class="hero-img-glow"></div>
+                    <div class="hero-img-border"></div>
+                </div>
+            </div>
+            <div class="hero-content" data-aos="fade-left">
+                <div class="hero-badge">
+                    <i class="fas fa-code"></i> Développeur Full-Stack
+                </div>
+                <h1>Freddy <span class="gradient-text">Wandenga</span></h1>
+                <div class="typing-container">
+                    <span class="typing-text"></span>
+                    <span class="cursor-blink">|</span>
+                </div>
+                <p><i class="fas fa-map-marker-alt"></i> Kisangani, RDC | <i class="fas fa-graduation-cap"></i> Expert en Solutions Digitales</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn-primary">Découvrir mes services <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://wa.me/243812878842? text=Bonjour%20je%20viens%20de%20votre%20Portfolio" class="btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Contact rapide</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><span class="stat-number" data-target="50">0</span><span class="stat-label">Projets</span></div>
+                    <div class="stat"><span class="stat-number" data-target="30">0</span><span class="stat-label">Clients</span></div>
+                    <div class="stat"><span class="stat-number" data-target="100">0</span><span class="stat-label">% Satisfaction</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+    
+    <!-- Section Compétences -->
+    <section class="skills">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-tag">MON SAVOIR-FAIRE</span>
+            <h2>Compétences <span class="gradient-text">Techniques</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category" data-aos="flip-left">
+                <i class="fab fa-html5"></i>
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <span>React</span><span>Vue.js</span><span>Angular</span><span>HTML5/CSS3</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="flip-left" data-aos-delay="100">
+                <i class="fab fa-node-js"></i>
+                <h3>Backend</h3>
+                <div class="skill-items">
+                    <span>Node.js</span><span>Python</span><span>PHP</span><span>Java</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="flip-left" data-aos-delay="200">
+                <i class="fas fa-database"></i>
+                <h3>Base de données</h3>
+                <div class="skill-items">
+                    <span>MongoDB</span><span>MySQL</span><span>PostgreSQL</span><span>Firebase</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="flip-left" data-aos-delay="300">
+                <i class="fas fa-cloud"></i>
+                <h3>DevOps & Outils</h3>
+                <div class="skill-items">
+                    <span>Git</span><span>Docker</span><span>AWS</span><span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Footer -->
+    <footer class="footer-premium">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>FREDDY <span>WANDENGA</span></h3>
+                <p>Créateur d'expériences digitales exceptionnelles</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://wa.me/243123456789"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Freddy Wandenga. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

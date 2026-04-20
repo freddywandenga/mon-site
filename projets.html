@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy Wandenga | Projets - Mon Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-text">MES PROJETS</div>
+            <div class="loader-dots"><span></span><span></span><span></span></div>
+        </div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="images/profile.jpg" alt="Freddy Wandenga" class="logo-photo">
+                </div>
+                <span class="logo-text">FW</span>
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="projets.html" class="nav-link active">Projets</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+    
+    <section class="projects-page">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-tag">MON PORTFOLIO</span>
+            <h2>Projets <span class="gradient-text">Récents</span></h2>
+            <p>Découvrez quelques-unes de mes réalisations</p>
+        </div>
+        
+        <div class="projects-filter" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-item" data-category="web" data-aos="zoom-in">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600" alt="MarketPlace RDC">
+                        <div class="project-overlay">
+                            <h4>MarketPlace RDC</h4>
+                            <p>Plateforme e-commerce congolaise</p>
+                            <div class="project-tech"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                            <a href="#" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-category="mobile" data-aos="zoom-in" data-aos-delay="100">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600" alt="Food Delivery">
+                        <div class="project-overlay">
+                            <h4>Food Delivery App</h4>
+                            <p>Application de livraison de repas</p>
+                            <div class="project-tech"><span>Flutter</span><span>Firebase</span></div>
+                            <a href="#" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-category="web" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600" alt="Dashboard">
+                        <div class="project-overlay">
+                            <h4>Analytics Dashboard</h4>
+                            <p>Tableau de bord interactif</p>
+                            <div class="project-tech"><span>Vue.js</span><span>D3.js</span></div>
+                            <a href="#" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-category="ecommerce" data-aos="zoom-in" data-aos-delay="300">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/commerce.jpg" alt="Boutique Mode">
+                        <div class="project-overlay">
+                            <h4>Fashion Store</h4>
+                            <p>Boutique de mode en ligne</p>
+                            <div class="project-tech"><span>Shopify</span><span>Liquid</span></div>
+                            <a href="#" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-category="mobile" data-aos="zoom-in" data-aos-delay="400">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/malikati.jpg" alt="Ride Sharing">
+                        <div class="project-overlay">
+                            <h4>Ride Sharing App</h4>
+                            <p>Application de covoiturage</p>
+                            <div class="project-tech"><span>React Native</span><span>Google Maps API</span></div>
+                            <a href="#" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-category="web" data-aos="zoom-in" data-aos-delay="500">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/IMG-20251018-WA0084.jpg" alt="Portfolio">
+                        <div class="project-overlay">
+                            <h4>Portfolio Créatif</h4>
+                            <p>Site portfolio pour artiste</p>
+                            <div class="project-tech"><span>GSAP</span><span>Three.js</span></div>
+                            <a href="#" class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer-premium">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>FREDDY <span>WANDENGA</span></h3>
+                <p>Créateur d'expériences digitales exceptionnelles</p>
+            </div>
+            <div class="footer-copyright"><p>&copy; 2026 Freddy Wandenga.</p></div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
